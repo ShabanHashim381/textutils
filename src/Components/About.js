@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 export default function About(props) {
   // const [myStyle, setmyStyle] = useState({
@@ -40,7 +40,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              Textutils give you a way to analyze your text quickly and
+              TexTuTiLs give you a way to analyze your text quickly and
               efficiently.Be it word count,character count or
             </div>
           </div>
@@ -65,8 +65,8 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              Textutils is a free character counter tool provides instant
-              character count & word count statistics for a given text.Textutils
+              TexTuTiLs is a free character counter tool provides instant
+              character count & word count statistics for a given text.TexTuTiLs
               reports the number of words or characters.Thus it is suitable for
               writing text with word/character limit.
             </div>

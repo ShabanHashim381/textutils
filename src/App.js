@@ -25,26 +25,26 @@ function App() {
       setMode("dark");
       document.body.style.backgroundColor = "#042743";
       showAlert("Dark mode has been enabled", "success");
-      document.title = "Textutils - Dark Mode";
+      document.title = "TexTuTiLs - Dark Mode";
       // setInterval(() => {
-      //   document.title = "Textutils is Amazing Mode";
+      //   document.title = "TexTuTiLs is Amazing Mode";
       // }, 2000);
       // setInterval(() => {
-      //   document.title = "Install Textutils Now";
+      //   document.title = "Install TexTuTiLs Now";
       // }, 1500);
     } else {
       setMode("light");
       document.body.style.backgroundColor = "white";
       showAlert("Light mode has been enabled", "success");
-      document.title = "Textutils - light Mode";
+      document.title = "TexTuTiLs - light Mode";
     }
   };
   return (
     <>
-      {/* <Navbar title="Textutils" aboutText="About Textutils" /> */}
+      {/* <Navbar title="TexTuTiLs" aboutText="About TexTuTiLs" /> */}
       {/* <Navbar /> */}
       <Router>
-        <Navbar title="Textutils" mode={mode} toggleMode={toggleMode} />
+        <Navbar title="TexTuTiLs" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
         <div className="container my-3">
           <Routes>
@@ -55,7 +55,7 @@ function App() {
               element={
                 <TextForm
                   showAlert={showAlert}
-                  heading="Enter the text to analyze"
+                  heading="Try TexTuTiLs - Word Counter,Character Counter,Remove Extra Spaces"
                   mode={mode}
                 />
               }
